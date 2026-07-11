@@ -8,7 +8,7 @@ import config
 
 class GodFmriDataHandler:
     def __init__(self):
-        self.h5_file = os.path.join(config.GOD_FMRI_PATH, config.SUBJECT_ID)
+        self.h5_file = os.path.join(config.GOD_FMRI_PATH, "Subject3.h5")
         self.test_img_csv = os.path.join(config.GOD_IMAGENET_PATH, "image_test_id.csv")
         self.train_img_csv = os.path.join(config.GOD_IMAGENET_PATH, "image_training_id.csv")
 
